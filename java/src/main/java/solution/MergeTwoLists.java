@@ -1,5 +1,8 @@
+package solution;
 
-class Solution_MergeLists {
+import leetcode.ListNode;
+
+class MergeTwoLists {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode result = null;
         ListNode current = null;

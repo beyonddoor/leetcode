@@ -1,4 +1,4 @@
-package utils;
+package util;
 
 /**
  * 双向链表节点

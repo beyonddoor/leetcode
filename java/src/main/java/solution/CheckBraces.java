@@ -1,6 +1,8 @@
+package solution;
+
 import java.util.Stack;
 
-public class Solution {
+public class CheckBraces {
 
     private final String openBraces = "([{";
     private final String closeBraces = ")]}";

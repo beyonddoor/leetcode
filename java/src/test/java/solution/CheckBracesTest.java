@@ -1,9 +1,11 @@
+package solution;
+
 import junit.framework.TestCase;
 
-public class SolutionTest extends TestCase {
+public class CheckBracesTest extends TestCase {
 
     public void testIsValid() {
-        Solution solution = new Solution();
+        CheckBraces solution = new CheckBraces();
         assertTrue(solution.isValid("()"));
         assertTrue(solution.isValid("{()}"));
         assertTrue(solution.isValid("{[()]}"));
