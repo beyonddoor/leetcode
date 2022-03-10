@@ -16,7 +16,12 @@ public class NumberOfRounds {
             return getCount(24, 0, false) - getCount(startHour, startMinute, true)
             + getCount(endHour, endMinute, false) - getCount(0, 0, true);
         }
-        return getCount(endHour, endMinute, false) - getCount(startHour, startMinute, true);
+        int count = getCount(endHour, endMinute, false) - getCount(startHour, startMinute, true);
+        if(count < 0)
+        {
+            count = 0;
+        }
+        return count;
     }
 
     /**

@@ -19,7 +19,6 @@ import java.util.Set;
  */
 public class RandomizedSet {
     private Set<Integer> set = new HashSet<Integer>();
-
     public RandomizedSet() {
     }
 
@@ -32,6 +31,6 @@ public class RandomizedSet {
     }
 
     public int getRandom() {
-        return set.iterator().next();
+        throw new RuntimeException("not implemented");
     }
 }
