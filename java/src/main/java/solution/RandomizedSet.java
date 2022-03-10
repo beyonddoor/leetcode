@@ -1,5 +1,7 @@
 package solution;
 
+import util.NotImplementException;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -31,6 +33,6 @@ public class RandomizedSet {
     }
 
     public int getRandom() {
-        throw new RuntimeException("not implemented");
+        throw new NotImplementException();
     }
 }

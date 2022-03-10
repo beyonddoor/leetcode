@@ -1,5 +1,7 @@
 package solution;
 
+import util.NotImplementException;
+
 /**
  * 有台奇怪的打印机有以下两个特殊要求：
  *
@@ -12,6 +14,6 @@ package solution;
  */
 public class StrangePrinter {
     public int strangePrinter(String s) {
-        throw new RuntimeException("not implemented");
+        throw new NotImplementException();
     }
 }
