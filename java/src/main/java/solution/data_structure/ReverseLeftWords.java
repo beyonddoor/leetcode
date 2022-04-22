@@ -1,6 +1,4 @@
-package solution.datastructure;
-
-import util.NotImplementException;
+package solution.data_structure;
 
 /**
  * https://leetcode-cn.com/leetbook/read/illustration-of-algorithm/589fz2/
@@ -15,6 +13,9 @@ import util.NotImplementException;
 public class ReverseLeftWords {
 
     public String reverseLeftWords(String s, int n) {
-        throw new NotImplementException();
+        var sb = new StringBuilder();
+        sb.append(s.substring(n, s.length()));
+        sb.append(s.substring(0, n));
+        return sb.toString();
     }
 }

@@ -1,6 +1,4 @@
-package solution.datastructure;
-
-import util.LinkList;
+package solution.data_structure;
 
 import java.util.LinkedList;
 

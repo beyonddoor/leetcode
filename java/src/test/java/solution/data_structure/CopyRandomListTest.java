@@ -1,8 +1,6 @@
-package solution.datastructure;
+package solution.data_structure;
 
 import junit.framework.TestCase;
-
-import java.util.HashMap;
 
 public class CopyRandomListTest extends TestCase {
 

@@ -1,4 +1,4 @@
-package solution.datastructure;
+package solution.data_structure;
 
 import leetcode.ListNode;
 

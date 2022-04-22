@@ -1,8 +1,7 @@
-package solution.datastructure;
+package solution.data_structure;
 
 import junit.framework.TestCase;
 import leetcode.LinkListUtil;
-import testUtil.AssertUtil;
 
 public class ReverseLinkList_InplaceTest extends TestCase {
 
